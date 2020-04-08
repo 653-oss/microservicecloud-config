@@ -33,6 +33,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: dept-8001.com
+    prefer-ip-address: true     #访问路径可以显示IP地址
 
 ---
 server:
@@ -64,6 +67,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: dept-8001.com
+    prefer-ip-address: true     #访问路径可以显示IP地址
 #请保存为utf-8格式
 
 info:
